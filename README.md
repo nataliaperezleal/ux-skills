@@ -29,6 +29,18 @@ Each finding includes the affected location, observed evidence, the reference it
 
 Severity measures impact. Confidence measures how strong the evidence is. The two are rated independently.
 
+## Repository structure
+
+```
+ux-skills/
+├── README.md          # This file
+├── AGENTS.md          # Instructions for agents without skill support
+├── LICENSE
+└── skills/
+    └── ux-design-audit/
+        └── SKILL.md   # The skill itself
+```
+
 ## Requirements
 
 Nothing is mandatory. The skill adapts to the references and tools you provide.
@@ -38,6 +50,13 @@ Nothing is mandatory. The skill adapts to the references and tools you provide.
 - **Browser or inspection tool (optional):** a tool that can open and inspect the running application. Without one, screenshots or manually provided measurements support a limited visual review.
 
 ## Installation
+
+Clone the repository first:
+
+```bash
+git clone https://github.com/nataliaperezleal/ux-skills.git
+cd ux-skills
+```
 
 ### Agents with skill support
 
@@ -96,7 +115,7 @@ Requests can be written in English or Spanish.
 
 ## Contributing and feedback
 
-Issues and pull requests are welcome. If the skill misses a discrepancy, reports a false positive, or behaves differently in your agent, please open an issue with the agent name, the request you made, and what happened.
+Issues and pull requests are welcome. If the skill misses a discrepancy, reports a false positive, or behaves differently in your agent, please open an issue at [github.com/nataliaperezleal/ux-skills/issues](https://github.com/nataliaperezleal/ux-skills/issues) with the agent name, the request you made, and what happened.
 
 ## License
 
