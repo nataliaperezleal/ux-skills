@@ -100,4 +100,4 @@ Issues and pull requests are welcome. If the skill misses a discrepancy, reports
 
 ## License
 
-Released under the [MIT License](LICENSE). Copyright (c) 2026 [Your name].
+Released under the [MIT License](LICENSE). Copyright (c) 2026 Natalia Pérez Leal.
