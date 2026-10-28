@@ -1,4 +1,4 @@
-# Agent Instructions
+# Instructions for AI agents
 
 This repository contains the `ux-design-audit` skill for auditing running web applications against a design system, a Figma design, or both.
 
